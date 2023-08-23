@@ -9,15 +9,15 @@ public class Main {
 
         Parqueadero carro1 = new Parqueadero(0,5,5);
 
-        System.out.println("Para el carro 1");
+        System.out.println("Para el carro 1 ");
         carro1.parquear_carro(mazda);
         carro1.cobrar_por_tiempo(mazda);
 
-        System.out.println("Para el carro 2");
+        System.out.println("Para el carro 2 ");
         carro1.parquear_carro(toyota);
         carro1.cobrar_por_tiempo(toyota);
 
-        System.out.println("Para el carro 3");
+        System.out.println("Para el carro 3 ");
         carro1.parquear_carro(ford);
         carro1.cobrar_por_tiempo(ford);
 
